@@ -28,8 +28,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
-  },
-  "publishConfig": {
-    "access": "public"
   }
+  // "publishConfig": {
+  //   "access": "public"
+  // }
 }
