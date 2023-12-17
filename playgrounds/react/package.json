@@ -1,0 +1,19 @@
+{
+  "name": "@playgrounds/react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/RaDangelo/ds.e.git",
+  "author": "Rafael D'Angelo <rberga95@gmail.com>",
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html -p 3000"
+  }
+}

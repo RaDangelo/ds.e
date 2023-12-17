@@ -1,0 +1,47 @@
+{
+  "name": "@ds.e/react",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/RaDangelo/ds.e.git",
+  "author": "Rafael D'Angelo <rberga95@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@storybook/addon-a11y": "^7.6.5",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-storysource": "^7.6.5",
+    "@storybook/addons": "^7.6.5",
+    "@storybook/cli": "^7.6.5",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^7.6.5",
+    "@storybook/react-vite": "^7.6.5",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^29.5.11",
+    "@types/react": "^18.2.43",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "rollup": "^4.8.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build --watch",
+    "test": "jest --verbose",
+    "test:watch": "yarn test --watch",
+    "start-storybook": "sb dev",
+    "build-storybook": "sb build",
+    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

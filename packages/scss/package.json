@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "repository": "https://github.com/RaDangelo/ds.e.git",
+  "author": "Rafael D'Angelo <rberga95@gmail.com>",
+  "files": [
+    "lib",
+    "src"
+  ],
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
@@ -10,6 +16,7 @@
     "husky": "4",
     "lint-staged": "^15.2.0",
     "node-sass": "^9.0.0",
+    "nodemon": "^3.0.2",
     "prettier": "^3.1.0",
     "stylelint": "^15.11.0",
     "stylelint-config-prettier": "^9.0.5",
