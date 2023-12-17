@@ -1,6 +1,6 @@
 {
   "name": "@ds.e/react",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "repository": "https://github.com/RaDangelo/ds.e.git",
